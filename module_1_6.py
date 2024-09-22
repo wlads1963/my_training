@@ -1,0 +1,18 @@
+my_dict = {'Nik': 1965, 'Nam': 1974, 'Loan': 1976, 'Lien': 1977}
+print(my_dict)
+print("Existing value: ", my_dict['Nam'])
+print("Not existing value:", my_dict.get('Fong'))
+my_dict.update({'Fil': 1980, 'Mil': 1981})
+print(my_dict)
+print(my_dict)
+new = my_dict.pop('Nik')
+print("Deleted value: ", new)
+print("Modified dictionary: ", my_dict)
+my_set = {7, 'Vika', 9, 8, 7, True, (1, 2, 3)}
+print(my_set)
+my_set.update('F', '4')
+print("Modified set 1: ", my_set)
+my_set = set(my_set)
+#print(my_set)
+print(my_set.discard(1))
+print("Modified set 2: ", my_set)
